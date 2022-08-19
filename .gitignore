@@ -7,6 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
+# .gitignore
+node_modules/
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -17,6 +20,8 @@
 /tmp/pids/*
 !/tmp/pids/
 !/tmp/pids/.keep
+
+gem 'rubocop', '>= 1.0', '< 2.0'
 
 # Ignore uploaded files in development.
 /storage/*
